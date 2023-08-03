@@ -1,0 +1,12 @@
+title: Logan Rath's Tool Playground
+description: > # this means to ignore newlines until "baseurl:"
+  This is where I store my tools.
+permalink: pretty
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://tools.lib.wtf" # the base hostname & protocol for your site, e.g. http://example.com
+site-twitter: #if your site has a twitter account, enter it here
+
+paginate: 8
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
