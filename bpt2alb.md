@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Brockport &amp; UB Library Search Bookmarklet
+title: Brockport &amp; UAlbany Library Search Bookmarklet
 ---
 <div class="container" markdown="1">
 
