@@ -14,7 +14,7 @@ layout: page
 
 <script>
   function proxyit() {
-  var addr = $("#addr").val();
+  var addr = document.getElementById("addr").val();
   var bptpxyUrl = "https://brockport.idm.oclc.org/login?url="+addr;
   var ubpxyUrl = "https://gate.lib.buffalo.edu/login?url="+addr;
   document.getElementById("pxyDiv").innerHTML='<h2 class="mt-4">Proxy URLs Below</h2><table class="table table-striped"><tr><th>Place</th><th>URL</th></tr><tr><td>Brockport</td><td>'+bptpxyUrl+'</td></tr><tr><td>UB</td><td>'+ubpxyUrl+'</td></tr></table>';
